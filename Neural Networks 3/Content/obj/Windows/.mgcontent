@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Coding/C#/Neural Networks 3 (backpropagation) - Copy/Neural Networks 3/Content/font.spritefont</File>
+    <File>D:/Coding/C#/Neural Networks 3 (backpropagation) - Copy/Neural Networks 3/Content/dotw.png</File>
+    <File>D:/Coding/C#/Neural Networks 3 (backpropagation) - Copy/Neural Networks 3/Content/small.png</File>
+  </SourceFiles>
+</SourceFileCollection>

@@ -1,0 +1,152 @@
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\Content\dotw.png
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\Content\small.png
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\Content\dotw.xnb
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\Content\font.xnb
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\Content\small.xnb
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.xml
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Coding\Neural Networks\Neural Networks 2\obj\x86\Debug\Neural_Networks_2.Form1.resources
+D:\Coding\Neural Networks\Neural Networks 2\obj\x86\Debug\Neural Networks 3.csproj.GenerateResource.Cache
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\Neural Networks 3.exe
+D:\Coding\Neural Networks\Neural Networks 2\bin\Windows\x86\Debug\Neural Networks 3.pdb
+D:\Coding\Neural Networks\Neural Networks 2\obj\x86\Debug\Neural Networks 3.csprojResolveAssemblyReference.cache
+D:\Coding\Neural Networks\Neural Networks 2\obj\x86\Debug\Neural Networks 3.exe
+D:\Coding\Neural Networks\Neural Networks 2\obj\x86\Debug\Neural Networks 3.pdb
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\Content\dotw.png
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\Content\small.png
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\Content\dotw.xnb
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\Content\font.xnb
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\Content\small.xnb
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\Neural Networks 3.exe
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\Neural Networks 3.pdb
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.xml
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Coding\Neural Networks\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Coding\Neural Networks\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csprojResolveAssemblyReference.cache
+D:\Coding\Neural Networks\Neural Networks 3\obj\x86\Debug\Neural_Networks_2.Form1.resources
+D:\Coding\Neural Networks\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csproj.GenerateResource.Cache
+D:\Coding\Neural Networks\Neural Networks 3\obj\x86\Debug\Neural Networks 3.exe
+D:\Coding\Neural Networks\Neural Networks 3\obj\x86\Debug\Neural Networks 3.pdb
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\dotw.png
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\small.png
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\dotw.xnb
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\font.xnb
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\small.xnb
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Neural Networks 3.exe
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Neural Networks 3.pdb
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csprojResolveAssemblyReference.cache
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural_Networks_2.Form1.resources
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csproj.GenerateResource.Cache
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural Networks 3.exe
+D:\Coding\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural Networks 3.pdb
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\dotw.png
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\small.png
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\dotw.xnb
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\font.xnb
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Content\small.xnb
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Neural Networks 3.exe
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\Neural Networks 3.pdb
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csprojResolveAssemblyReference.cache
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural_Networks_2.Form1.resources
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csproj.GenerateResource.Cache
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural Networks 3.exe
+D:\Coding\C#\Neural Networks 3 (backpropagation)\Neural Networks 3\obj\x86\Debug\Neural Networks 3.pdb
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\Content\dotw.png
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\Content\small.png
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\Content\dotw.xnb
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\Content\font.xnb
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\Content\small.xnb
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\Neural Networks 3.exe
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\Neural Networks 3.pdb
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csprojResolveAssemblyReference.cache
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\obj\x86\Debug\Neural_Networks_2.Form1.resources
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csproj.GenerateResource.Cache
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csproj.CoreCompileInputs.cache
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\obj\x86\Debug\Neural Networks 3.exe
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\obj\x86\Debug\Neural Networks 3.pdb
+D:\Coding\C#\Neural Networks 3 (backpropagation) - Copy\Neural Networks 3\obj\x86\Debug\Neural Networks 3.csproj.CopyComplete
