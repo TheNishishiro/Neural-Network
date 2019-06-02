@@ -36,7 +36,7 @@ model.AddDense(2, "sigmoid");
 ```
 Remember to mark first later to not use bias (will probably be changed later on)
 
-then either call `model.fit` or use separate functions to yuor liking like this:
+then either call `model.fit` or use separate functions to your liking like this:
 ```
 SetInputs([InputArray]);
 SetDesiredOutput([ExpectedValues]);
