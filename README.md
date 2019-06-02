@@ -34,6 +34,8 @@ model.AddDense([neurons], [activation function], [use bias]);
 model.AddDense(5, "relu");
 model.AddDense(2, "sigmoid");
 ```
+finally aftyer you are done adding layers call `model.Compile()` which will connect all the layers together and stuff.
+
 Remember to mark first later to not use bias (will probably be changed later on)
 
 then either call `model.fit` or use separate functions to your liking like this:
