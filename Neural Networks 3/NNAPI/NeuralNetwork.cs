@@ -26,6 +26,11 @@ namespace Neural_Networks_3.NNAPI
                 NNLayers.Add(new DenseLayer(NeuronCount, activation, useBias));
         }
 
+        public void AddRecurrent(int NeuronCount, string activation, string recurrentActivation, bool useBias = true)
+        {
+            NNLayers.Add(new RecurrentLayer(NeuronCount, activation, recurrentActivation, useBias));
+        }
+
         public void Fit(double[][] InputArray, double[][] ExpectedValues, int Epochs)
         {
             double error = 0;

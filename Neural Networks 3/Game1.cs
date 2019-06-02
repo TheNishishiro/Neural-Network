@@ -45,14 +45,10 @@ namespace Neural_Networks_2
             NFramework.NDrawing.AddPixelTexture("line", GraphicsDevice);
 
             model.AddDense(2, "relu", false);
-            model.AddDense(5, "relu");
-            model.AddDense(6, "relu");
-            model.AddDense(8, "relu");
-            model.AddDense(5, "relu");
-            model.AddDense(7, "relu");
-            model.AddDense(9, "relu");
-            model.AddDense(5, "relu");
-            model.AddDense(6, "relu");
+            model.AddRecurrent(5, "relu", "relu");
+            model.AddRecurrent(6, "relu", "relu");
+            model.AddRecurrent(8, "relu", "relu");
+            model.AddRecurrent(5, "relu", "relu");
             model.AddDense(2, "sigmoid");
 
             model.Compile();

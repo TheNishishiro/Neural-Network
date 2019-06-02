@@ -74,6 +74,7 @@
     <Compile Include="NeuralNetworkv2.cs" />
     <Compile Include="NNAPI\Layers\DenseLayer.cs" />
     <Compile Include="NNAPI\Layers\Layer.cs" />
+    <Compile Include="NNAPI\Layers\RecurrentLayer.cs" />
     <Compile Include="NNAPI\NeuralNetwork.cs" />
     <Compile Include="NNAPI\Neuron.cs" />
     <Compile Include="Program.cs" />
