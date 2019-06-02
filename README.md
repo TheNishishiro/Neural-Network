@@ -1,12 +1,14 @@
 # About
 
-Simple program for classification of balls, yes... I made it back when trying to make a functional neural network.
-Written in C# using MonoGame for visualizing the effect
+A project to implement neural networks from scratch in C# 
 
-To use neural network you pretty much only need NeuralNetworkv2.cs and NeuralNetworkLayer.cs since these are the implementation classes everything else is optional.
+# Introduction
 
-I didn't test it all that much but it seems whenever I use it it sort of works, so there is that ¯\_(ツ)_/¯ 
+For now the code is very messy as it's overcomming and overhaul from previous iteration, new code and architectrue can be found in *NNAPI* folder.
 
-# Features
-* Multilayered customizable structure 
-* 3 default activation functions altho relu works best
+Everything outside that folder is either garbage or used to visualize progress of learning.
+
+Current implementation only consists of dense MLP layers but the whole point of the overaul was to bring more different layers into play as well as add much more low-level customization so it's still very early into development. (considering I haven't worked on it since about 2 years).
+
+For now I mostly tested it for binary classification and it reaches accuraccy of around 98% so similiar to the old code which if I remember correctly did a little better but at least it's new and mine.
+I didn't test it on any more complex tasks and it probably wouldn't perform all that well either.
