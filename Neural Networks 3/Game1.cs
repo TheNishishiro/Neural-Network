@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Neural_Networks_3.NNAPI;
 using System;
 using static Neural_Networks_2.settings;
 
@@ -10,7 +11,7 @@ namespace Neural_Networks_2
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        
+        NeuralNetwork model = new NeuralNetwork(0.01, true, 0.8);
 
         public Game1()
         {
@@ -43,13 +44,18 @@ namespace Neural_Networks_2
             NFramework.NDrawing.AddFont("font", "font");
             NFramework.NDrawing.AddPixelTexture("line", GraphicsDevice);
 
-            //NN = new NeuralNetwork(2, 5, 2);
+            model.AddDense(2, "relu", false);
+            model.AddDense(5, "relu");
+            model.AddDense(6, "relu");
+            model.AddDense(8, "relu");
+            model.AddDense(5, "relu");
+            model.AddDense(7, "relu");
+            model.AddDense(9, "relu");
+            model.AddDense(5, "relu");
+            model.AddDense(6, "relu");
+            model.AddDense(2, "sigmoid");
 
-            NN = new NeuralNetworkv2(numberOfLayers, array);
-            NN.SetLearningRate(LearningRate);
-            NN.SetLinearOutput(false);
-            NN.SetMomentum(true, Momentum);
-
+            model.Compile();
         }
 
         protected override void Update(GameTime gameTime)
@@ -68,11 +74,11 @@ namespace Neural_Networks_2
             {
                 double x = 0, y, error = 0, nodeActive = 0;
                 double[] output = { 0, 0 };
-
+                
                 x = rnd.Next(graphics.PreferredBackBufferWidth);
                 y = rnd.Next(graphics.PreferredBackBufferHeight);
-                NN.SetInput(0, x / 1300);
-                NN.SetInput(1, y / 700);
+                double[] inputs = { x/1300, y/700 };
+                model.SetInputs(inputs);
 
                 if (function(x,y) == 0)//(y < 350)
                 {
@@ -85,27 +91,19 @@ namespace Neural_Networks_2
                     nodeActive = 1;
                 }
 
-                for(int i = 0; i < array[array.Length-1]; i++)
-                {
-                    if(i < array.Length-1)
-                        NN.SetDesiredOutput(i, output[i]);
-                }
+                model.SetDesiredOutput(output);
+                model.FeedForward();
 
-                
-                //NN.SetDesiredOutput(1, output[1]);
-
-                NN.FeedForward();
-                error += NN.CalculateError();
-                if (nodeActive == NN.GetMaxOutputID())
+                if (nodeActive == model.GetMaxOutputID())
                    GlobalcorrectRate++;
 
                 GlobalcorrectRatio = GlobalcorrectRate / c;
-                NN.BackPropagate();
-                balls.Add(new Ball(x, y, NN.GetMaxOutputID(), (int)nodeActive));
+                model.Backpropagate();
+                balls.Add(new Ball(x, y, model.GetMaxOutputID(), (int)nodeActive));
 
-                if (Keyboard.GetState().IsKeyDown(Keys.A))
-                    DrawNeuronsNew();
-                else
+                //if (Keyboard.GetState().IsKeyDown(Keys.A))
+                //    DrawNeuronsNew();
+                //else
                     DrawSimulation(spriteBatch);
                     
                 DrawInfo();

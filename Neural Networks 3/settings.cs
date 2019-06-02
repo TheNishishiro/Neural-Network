@@ -12,8 +12,6 @@ namespace Neural_Networks_2
 
     class settings
     {
-        public static NeuralNetworkv2 NN;
-        //public static NeuralNetwork NN;
         private static double correctRate = 0, correctRatio = 0;
         public static double GlobalcorrectRate = 0, GlobalcorrectRatio = 0;
         public static int goal = 30000, c = 0;
@@ -34,54 +32,54 @@ namespace Neural_Networks_2
 
         public static int function(double X, double Y)
         {
-            if (Y < (Math.Sin(X / 100) * 200) + 350)
+            if (Y < 350)
                 return 0;
             else
                 return 1;
         }
 
-        public static void DrawNeuronsNew()
-        {
-            float heightAdjust = 0, heightAdjust2 = 0;
-            for (int i = 0; i < NN.Layers.Count; i++)
-            {
-                for (int j = 0; j < NN.Layers[i].NumberOfNodes; j++)
-                {
-                    if (i == 0)
-                        heightAdjust = (70 * (NN.Layers[1].NumberOfNodes / NN.Layers[0].NumberOfNodes)) - 70;
-                    else if (i == NN.Layers.Count - 1)
-                    {
-                        heightAdjust = (70 * (NN.Layers[i - 1].NumberOfNodes / NN.Layers[i].NumberOfNodes)) - 70;
-                    }
-                    else if (i == NN.Layers.Count - 2)
-                    {
-                        heightAdjust2 = (70 * (NN.Layers[i].NumberOfNodes / NN.Layers[i+1].NumberOfNodes)) - 70;
-                        heightAdjust = 0;
-                    }
-                    else
-                    {
-                        heightAdjust = 0;
-                        heightAdjust2 = 0;
-                    }
+        //public static void DrawNeuronsNew()
+        //{
+        //    float heightAdjust = 0, heightAdjust2 = 0;
+        //    for (int i = 0; i < NN.Layers.Count; i++)
+        //    {
+        //        for (int j = 0; j < NN.Layers[i].NumberOfNodes; j++)
+        //        {
+        //            if (i == 0)
+        //                heightAdjust = (70 * (NN.Layers[1].NumberOfNodes / NN.Layers[0].NumberOfNodes)) - 70;
+        //            else if (i == NN.Layers.Count - 1)
+        //            {
+        //                heightAdjust = (70 * (NN.Layers[i - 1].NumberOfNodes / NN.Layers[i].NumberOfNodes)) - 70;
+        //            }
+        //            else if (i == NN.Layers.Count - 2)
+        //            {
+        //                heightAdjust2 = (70 * (NN.Layers[i].NumberOfNodes / NN.Layers[i+1].NumberOfNodes)) - 70;
+        //                heightAdjust = 0;
+        //            }
+        //            else
+        //            {
+        //                heightAdjust = 0;
+        //                heightAdjust2 = 0;
+        //            }
 
-                    for (int k = 0; k < NN.Layers[i].NumberOfChildNodes; k++)
-                    {
-                        if (NN.Layers[i].Weights[j][k] < 0)
-                            color = Color.Black;
-                        else
-                            color = Color.White;
+        //            for (int k = 0; k < NN.Layers[i].NumberOfChildNodes; k++)
+        //            {
+        //                if (NN.Layers[i].Weights[j][k] < 0)
+        //                    color = Color.Black;
+        //                else
+        //                    color = Color.White;
 
-                        if (Math.Abs(NN.Layers[i].Weights[j][k]) >= 1)
-                            NFramework.NDrawing.Draw_Line_Between_Points(new Vector2((100 * i) + 64, (j * 70) + 64 + heightAdjust), new Vector2((115 + 100 * i) + 64, (k * 70) + 64 + heightAdjust2), "line", Math.Abs(NN.Layers[i].Weights[j][k]) * connectionWidthMult, color);
-                        else if(Math.Abs(NN.Layers[i].Weights[j][k]) < 1 && Math.Abs(NN.Layers[i].Weights[j][k]) > 0.05)
-                            NFramework.NDrawing.Draw_Line_Between_Points(new Vector2((100 * i) + 64, (j * 70) + 64 + heightAdjust), new Vector2((115 + 100 * i) + 64, (k * 70) + 64 + heightAdjust2), "line", 1, color);
+        //                if (Math.Abs(NN.Layers[i].Weights[j][k]) >= 1)
+        //                    NFramework.NDrawing.Draw_Line_Between_Points(new Vector2((100 * i) + 64, (j * 70) + 64 + heightAdjust), new Vector2((115 + 100 * i) + 64, (k * 70) + 64 + heightAdjust2), "line", Math.Abs(NN.Layers[i].Weights[j][k]) * connectionWidthMult, color);
+        //                else if(Math.Abs(NN.Layers[i].Weights[j][k]) < 1 && Math.Abs(NN.Layers[i].Weights[j][k]) > 0.05)
+        //                    NFramework.NDrawing.Draw_Line_Between_Points(new Vector2((100 * i) + 64, (j * 70) + 64 + heightAdjust), new Vector2((115 + 100 * i) + 64, (k * 70) + 64 + heightAdjust2), "line", 1, color);
 
-                    }
-                    NFramework.NDrawing.Draw("dot", new Vector2((100 * i)+64, (j * 70)+64 + heightAdjust), Color.White, 1, 0, true);
-                    NFramework.NDrawing.DrawText(NN.Layers[i].NeuronValues[j].ToString("0.00"), new Vector2(((100 * i)-15)+64, ((j * 70)+64)-5 + heightAdjust), Color.Red);
-                }
-            }
-        }
+        //            }
+        //            NFramework.NDrawing.Draw("dot", new Vector2((100 * i)+64, (j * 70)+64 + heightAdjust), Color.White, 1, 0, true);
+        //            NFramework.NDrawing.DrawText(NN.Layers[i].NeuronValues[j].ToString("0.00"), new Vector2(((100 * i)-15)+64, ((j * 70)+64)-5 + heightAdjust), Color.Red);
+        //        }
+        //    }
+        //}
 
 
         public static void DrawSimulation(SpriteBatch spriteBatch)

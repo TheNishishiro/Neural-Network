@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/nishi/Documents/GitHub/Neural-Network/Neural Networks 3/Content/dotw.png","C:/Users/nishi/Documents/GitHub/Neural-Network/Neural Networks 3/Content/bin/Windows/Content/dotw.xnb","TextureProcessor","Texture2DContent",1328,16469,0.5955635
+"C:/Users/nishi/Documents/GitHub/Neural-Network/Neural Networks 3/Content/font.spritefont","C:/Users/nishi/Documents/GitHub/Neural-Network/Neural Networks 3/Content/bin/Windows/Content/font.xnb","FontDescriptionProcessor","SpriteFontContent",2065,21521,1.553292
+"C:/Users/nishi/Documents/GitHub/Neural-Network/Neural Networks 3/Content/small.png","C:/Users/nishi/Documents/GitHub/Neural-Network/Neural Networks 3/Content/bin/Windows/Content/small.xnb","TextureProcessor","Texture2DContent",160,101,0.0079741

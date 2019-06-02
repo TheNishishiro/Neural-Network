@@ -8,35 +8,41 @@ namespace Neural_Networks_2
 {
     class NeuralNetworkv2
     {
-        public List<NeuralNetworkLayer> Layers = new List<NeuralNetworkLayer>();
+        public List<NeuralNetworkLayer> Layers;
 
-        public NeuralNetworkv2(int nOfLayers, int[] nNodesInLayers)
+        public NeuralNetworkv2()
         {
-            for(int i = 0; i < nOfLayers; i++)
-            {
-                Layers.Add(new NeuralNetworkLayer());
-            }
+            Layers = new List<NeuralNetworkLayer>();
+        }
+
+        public void AddDense(int neurons)
+        {
+            Layers.Add(new NeuralNetworkLayer(neurons));
+        }
+
+        public void Compile()
+        {
+            int nOfLayers = Layers.Count;
             for (int i = 0; i < nOfLayers; i++)
             {
-                Layers[i].NumberOfNodes = nNodesInLayers[i];
-                if(i == 0)
+                if (i == 0)
                 {
-                    Layers[i].NumberOfChildNodes = nNodesInLayers[i + 1];
+                    Layers[i].NumberOfChildNodes = Layers[i + 1].NumberOfNodes;
                     Layers[i].NumberOfParentNodes = 0;
-                    Layers[i].Initialize(nNodesInLayers[i], null, Layers[i+1]);
+                    Layers[i].Initialize(Layers[i].NumberOfNodes, null, Layers[i + 1]);
                     Layers[i].RandomizeWeights();
                 }
-                else if(i == Layers.Count - 1)
+                else if (i == Layers.Count - 1)
                 {
                     Layers[i].NumberOfChildNodes = 0;
-                    Layers[i].NumberOfParentNodes = nNodesInLayers[i-1];
-                    Layers[i].Initialize(nNodesInLayers[i], Layers[i-1], null);
+                    Layers[i].NumberOfParentNodes = Layers[i - 1].NumberOfNodes;
+                    Layers[i].Initialize(Layers[i].NumberOfNodes, Layers[i - 1], null);
                 }
                 else
                 {
-                    Layers[i].NumberOfChildNodes = nNodesInLayers[i+1];
-                    Layers[i].NumberOfParentNodes = nNodesInLayers[i-1];
-                    Layers[i].Initialize(nNodesInLayers[i], Layers[i-1], Layers[i+1]);
+                    Layers[i].NumberOfChildNodes = Layers[i + 1].NumberOfNodes;
+                    Layers[i].NumberOfParentNodes = Layers[i - 1].NumberOfNodes;
+                    Layers[i].Initialize(Layers[i].NumberOfNodes, Layers[i - 1], Layers[i + 1]);
                     Layers[i].RandomizeWeights();
                 }
             }
@@ -77,19 +83,12 @@ namespace Neural_Networks_2
 
         public void BackPropagate()
         {
-           // Layers[Layers.Count-1].CalculateErrors();
-
             for (int i = Layers.Count - 1; i > 0; i--)
             {
                 Layers[i].CalculateErrors();
                 Layers[i].AdjustWeights();
             }
             Layers[0].AdjustWeights();
-
-            //for (int i = 1; i < Layers.Count - 1; i++)
-            //{
-            //    Layers[i].AdjustWeights();
-            //}
         }
 
         public int GetMaxOutputID()

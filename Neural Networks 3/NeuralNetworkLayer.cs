@@ -37,6 +37,17 @@ namespace Neural_Networks_2
             MomentumFactor = 0.9;
         }
 
+        public NeuralNetworkLayer(int numberOfNeurons, bool linearOutput = false, bool useMomentum = false, double momentumFactor = 0.9)
+        {
+            ParentLayer = null;
+            ChildLayer = null;
+
+            LinearOutput = linearOutput;
+            UseMomentum = useMomentum;
+            MomentumFactor = momentumFactor;
+            NumberOfNodes = numberOfNeurons;
+        }
+
         public void Initialize(int NumNodes, NeuralNetworkLayer parent, NeuralNetworkLayer child)
         {
             int i, j;
